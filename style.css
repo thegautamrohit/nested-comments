@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.comments__wrapper {
+  width: 90%;
+  margin: 100px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.comment_card {
+  padding: 10px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.comment_card > .first_post {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.add_reply_btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0px;
+  outline: none;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.comment__submit__wrap {
+  margin: 10px 0 0 20px;
+}
+
+.comment__submit__wrap > input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #d9d9d9;
+  outline: none;
+}
+
+.comment__submit__wrap > button {
+  padding: 10px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.mono__comment__wrap:not(:first-child) {
+  margin: 0 0 0 20px;
+}
